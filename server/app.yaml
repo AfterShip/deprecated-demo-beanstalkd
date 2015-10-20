@@ -26,7 +26,7 @@
 # set to default version
 # gcloud preview app deploy app.yaml --version v1-0-0 --promote
 
-module: vote
+module: vote-server
 
 
 # Add your application ENV here, the listening port number must be 8080
@@ -52,7 +52,7 @@ resources:
 
 # [START scaling]
 automatic_scaling:
-  min_num_instances: 3
+  min_num_instances: 15
   max_num_instances: 100
   cool_down_period_sec: 60
   cpu_utilization:

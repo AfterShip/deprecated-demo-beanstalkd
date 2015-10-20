@@ -31,12 +31,9 @@ module.exports = function (grunt) {
 
 	// These plugins provide necessary tasks.
 	grunt.loadNpmTasks('grunt-eslint');
-	grunt.loadNpmTasks('grunt-mocha-istanbul');
 
 	// Default task.
 	grunt.registerTask('default', []);
-
-	grunt.registerTask('coverage', ['mocha_istanbul:coverage']);
 
 	grunt.registerTask('lint', ['eslint']);
 };

@@ -1,15 +1,31 @@
-# demo-bs [![Build Status](https://secure.travis-ci.org/AfterShip/demo-bs.png?branch=master)](http://travis-ci.org/AfterShip/demo-bs)
+# demo-beanstalkd
 
 Demo BS
 
-## Getting Started
-_(Coming soon)_
+## Requirement
+- Redis
+- Beanstalkd
 
-## Documentation
-_(Coming soon)_
+## How to run
+Clone project first
+```
+git clone git@github.com:AfterShip/demo-beanstalkd.git
 
-## Examples
-_(Coming soon)_
+```
+
+run server
+```
+
+cd server && npm install && npm start
+
+```
+
+run worker
+```
+
+cd worker && npm install && npm start
+
+```
 
 ## License
 Copyright (c) 2015 AfterShip  
