@@ -1,10 +1,11 @@
 # demo-beanstalkd
 
-Demo BS
+Demo using Beanstalkd + Redis to servce over 1M requests / min easily.
+
 
 ## Requirement
-- Redis
-- Beanstalkd
+- [Redis](http://redis.io/)
+- [Beanstalkd](http://kr.github.io/beanstalkd/)
 
 ## How to run
 Clone project first
