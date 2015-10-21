@@ -14,7 +14,7 @@ git clone git@github.com:AfterShip/demo-beanstalkd.git
 
 ```
 
-run server
+run server at http://localhost:7777
 ```
 
 cd server && npm install && npm start
